@@ -7,54 +7,53 @@ import "./css/normalize.css";
 
 const items = [
   {
-    title: "Website",
-    subtitle: "Look at my work!",
-    type: CHANNEL_TYPES.WEBSITE,
-    link: "https://sagnik-wtf.vercel.app", //your personal website or portfolio  link
-  },
-  {
-    title: "GitHub",
-    subtitle: "@heysagnik | 🏡 to all my open-source projects",
-    type: CHANNEL_TYPES.GITHUB,
-    link: "https://github.com/heysagnik", //Github Profile link
+    title: "Photograpy Portfolio",
+    subtitle: "Wannabe semi-pro photographer",
+    type: CHANNEL_TYPES.PORTFOLIO,
+    link: "https://snags.myportfolio.com/", //your personal website or portfolio  link
   },
   {
     title: "Instagram",
-    subtitle: "@heysagnik |  Shots of my life 🙂",
+    subtitle: "@dan_snags | I post my photography when I'm not too lazy",
     type: CHANNEL_TYPES.INSTAGRAM,
-    link: "https://instagram.com/heysagnik", //instagram profile link
+    link: "https://instagram.com/dan_snags", //instagram profile link
+  },
+  {
+    title: "GitHub",
+    subtitle: "@snags141 | 🏡 to all my open-source projects",
+    type: CHANNEL_TYPES.GITHUB,
+    link: "https://github.com/snags141", //Github Profile link
   },
   {
     title: "Twitter",
     subtitle: "@heysagnik | 😉",
     type: CHANNEL_TYPES.TWITTER,
-    link: "https://twitter.com/heysagnik", // twitter profile link
+    link: "https://twitter.com/danharv3", // twitter profile link
   },
   {
     title: "LinkedIn",
     subtitle: "Know more about my profession 👨‍💼",
     type: CHANNEL_TYPES.LINKEDIN,
-    link: "https://www.linkedin.com/in/heysagnik/", // linkedin
+    link: "https://www.linkedin.com/in/danielharvey11", // linkedin
   },
   {
     title: "YouTube",
-    subtitle: "CODER SAGNIK | Official channel of mine",
+    subtitle: "Watch my cringy youtube videos",
     type: CHANNEL_TYPES.YOUTUBE,
-    link: "https://www.youtube.com/channel/UCOUa9hvd4sJWQWQRIQctbSg", //youtube channel link
+    link: "https://www.youtube.com/@DanielHarvey", //youtube channel link
   },
-
   {
-    title: "Dribbble",
-    subtitle: "@virtuonic | shots of dezigns ",
+    title: "My Music",
+    subtitle: "@snagsofficial | Random tunes I write ",
     type: CHANNEL_TYPES.DRIBBLE,
-    link: "https://dribbble.com/virtuonic", // Dribbble profile link
+    link: "https://soundcloud.com/snagsofficial", // Dribbble profile link
   },
-  {
-    title: "Telegram",
-    subtitle: "@heysagnik | Chat with me instantly ",
-    type: CHANNEL_TYPES.TELEGRAM,
-    link: "https://telegram.me/heysagnik", //Telegram Pofile
-  },
+  // {
+  //   title: "Telegram",
+  //   subtitle: "@heysagnik | Chat with me instantly ",
+  //   type: CHANNEL_TYPES.TELEGRAM,
+  //   link: "https://telegram.me/heysagnik", //Telegram Pofile
+  // },
 ];
 
 const rootElement = document.getElementById("root");
