@@ -25,12 +25,6 @@ const items = [
     link: "https://github.com/snags141", //Github Profile link
   },
   {
-    title: "Twitter",
-    subtitle: "@heysagnik | 😉",
-    type: CHANNEL_TYPES.TWITTER,
-    link: "https://twitter.com/danharv3", // twitter profile link
-  },
-  {
     title: "LinkedIn",
     subtitle: "Know more about my profession 👨‍💼",
     type: CHANNEL_TYPES.LINKEDIN,
@@ -47,6 +41,12 @@ const items = [
     subtitle: "@snagsofficial | Random tunes I write ",
     type: CHANNEL_TYPES.DRIBBLE,
     link: "https://soundcloud.com/snagsofficial", // Dribbble profile link
+  },
+  {
+    title: "Twitter",
+    subtitle: "@danharv3",
+    type: CHANNEL_TYPES.TWITTER,
+    link: "https://twitter.com/danharv3", // twitter profile link
   },
   // {
   //   title: "Telegram",
