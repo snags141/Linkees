@@ -25,7 +25,7 @@ const items = [
     link: "https://instagram.com/heysagnik", //instagram profile link
   },
   {
-    title: "Twitter",
+    title: "X/Twitter",
     subtitle: "@heysagnik | 😉",
     type: CHANNEL_TYPES.TWITTER,
     link: "https://twitter.com/heysagnik", // twitter profile link
