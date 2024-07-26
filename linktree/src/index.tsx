@@ -51,6 +51,20 @@ const items = [
     link: "https://twitter.com/danharv3", // twitter profile link
     image: '/images/x.jpg'
   },
+  {
+    title: "Straya Hosting",
+    subtitle: "Aussie Game server hosting provider",
+    type: CHANNEL_TYPES.TWITTER,
+    link: "https://straya.gg", // twitter profile link
+    image: '/images/straya.webp'
+  },
+  {
+    title: "Evolv SOAR",
+    subtitle: "Next-Gen cyber security platform",
+    type: CHANNEL_TYPES.TWITTER,
+    link: "https://evolv.gg", // twitter profile link
+    image: '/images/evolv.png'
+  },
   // {
   //   title: "Telegram",
   //   subtitle: "@heysagnik | Chat with me instantly ",
