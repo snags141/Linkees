@@ -60,8 +60,11 @@ const rootElement = document.getElementById("root");
 if (rootElement) {
   ReactDOM.createRoot(rootElement)?.render(
     <React.StrictMode>
-      <Linkees cardItems={items} name={"Dan|snags."} />{" "}
-      {/* headerAvatar={'any image url'}*/}
+      <Linkees 
+        cardItems={items}
+        headerAvatar={'https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1652341068/EducationHub/photos/ocean-waves.jpg'}
+        name={"Dan|snags."} />{" "}
+      
     </React.StrictMode>
   );
 }
