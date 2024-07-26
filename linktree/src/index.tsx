@@ -60,7 +60,7 @@ const rootElement = document.getElementById("root");
 if (rootElement) {
   ReactDOM.createRoot(rootElement)?.render(
     <React.StrictMode>
-      <Linkees cardItems={items} name={"Sagnik."} />{" "}
+      <Linkees cardItems={items} name={"Dan|snags."} />{" "}
       {/* headerAvatar={'any image url'}*/}
     </React.StrictMode>
   );
