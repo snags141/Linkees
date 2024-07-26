@@ -45,10 +45,11 @@ const items = [
     image: "/images/soundcloud.jpg"
   },
   {
-    title: "Twitter",
+    title: "X",
     subtitle: "@danharv3",
     type: CHANNEL_TYPES.TWITTER,
     link: "https://twitter.com/danharv3", // twitter profile link
+    image: '/images/x.jpg'
   },
   // {
   //   title: "Telegram",
