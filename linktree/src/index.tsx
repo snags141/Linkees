@@ -10,8 +10,8 @@ const items = [
     title: "Photograpy Portfolio",
     subtitle: "Wannabe semi-pro photographer",
     type: CHANNEL_TYPES.WEBSITE,
-    link: "https://cdn.myportfolio.com/99f4e44b-ba68-4a34-aa6f-78b3565bf0f5/15042609-069f-4635-a69a-473ebe815ed6_rw_1920.jpg?h=f1e0f300b48fb042670e5aec1a2f5482", //your personal website or portfolio  link
-    image: 
+    link: "http://snags.myportfolio.com", //your personal website or portfolio  link
+    image: '/images/portfolio.jpg'
   },
   {
     title: "Instagram",
@@ -41,7 +41,8 @@ const items = [
     title: "My Music",
     subtitle: "@snagsofficial | Random tunes I write ",
     type: CHANNEL_TYPES.DRIBBLE,
-    link: "https://soundcloud.com/snagsofficial", // Dribbble profile link
+    link: "https://soundcloud.com/snagsofficial",
+    image: "/images/soundcloud.jpg"
   },
   {
     title: "Twitter",
@@ -63,7 +64,7 @@ if (rootElement) {
     <React.StrictMode>
       <Linkees 
         cardItems={items}
-        headerAvatar={'https://instagram.fsyd3-1.fna.fbcdn.net/v/t51.29350-15/286115689_547095107087847_3701199399018929394_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MCJ9&_nc_ht=instagram.fsyd3-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=NKaJm0zGxGIQ7kNvgEzizlT&gid=dd44e2f0c5ee4e5f9979357a666319cf&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=Mjg1NTI4NDYxODgwNjIwNDk0Mw%3D%3D.2-ccb7-5&oh=00_AYDV1mU6WAdrRMyWRv_YEtYx1KITF3Tr6iSNxaqKLHo4qA&oe=66A92F69&_nc_sid=8f1549'}
+        headerAvatar={'/favicon-96x96.png'}
         name={"Dan|snags."} />{" "}
       
     </React.StrictMode>
