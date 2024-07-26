@@ -11,7 +11,7 @@ import portfolio from '../assets/portfolio.jpg';
 import { CHANNEL_TYPES } from '../constants';
 
 export const CHANNEL_TYPE_VS_COVER_IMAGE = {
-  [CHANNEL_TYPES.WEBSITE]: website,
+  [CHANNEL_TYPES.WEBSITE]: portfolio,
   [CHANNEL_TYPES.INSTAGRAM]: instagram,
   [CHANNEL_TYPES.LINKEDIN]: linkedin,
   [CHANNEL_TYPES.YOUTUBE]: youtube,

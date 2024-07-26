@@ -9,8 +9,8 @@ const items = [
   {
     title: "Photograpy Portfolio",
     subtitle: "Wannabe semi-pro photographer",
-    type: CHANNEL_TYPES.PORTFOLIO,
-    link: "https://snags.myportfolio.com/", //your personal website or portfolio  link
+    type: CHANNEL_TYPES.WEBSITE,
+    link: "https://snags.myportfolio.com/" //your personal website or portfolio  link
   },
   {
     title: "Instagram",
